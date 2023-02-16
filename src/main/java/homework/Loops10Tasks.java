@@ -120,10 +120,10 @@ public class Loops10Tasks {
 
         //Task 10: Write a Java program to find the sum of the two elements of a given array which is equal to a given integer.
 
-        System.out.println("Task 10:\nSum of the numbers giving the same output:");
+        System.out.println("Task 10:\nSum of the numbers giving the same output:\nFrom the first array -->");
         findPairs(new int[] {4, 6, 5, -10, 8, 5, 20}, 10);
 
-        System.out.println("===========");
+        System.out.println("* * * * * * * *\nFrom the second array -->");
 
         findPairs(new int[] {4, -5, 9, 11, 25, 13, 12, 8}, 20);
     }
