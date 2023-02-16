@@ -1,10 +1,8 @@
 package homework;
 
-import javax.sound.midi.Soundbank;
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class LoopsExercise {
+public class Loops10Tasks {
     public static void main(String[] args) {
 
         // Task 1: Write a Java program to sum values of an array.
@@ -115,27 +113,14 @@ public class LoopsExercise {
         }
 
         if (counter == 1) {
-            System.out.println("* * *\nTask 09:\n" + specificElement + " exists in the array.\n");
+            System.out.println("* * *\nTask 09:\n" + specificElement + " exists in the array.\n* * *");
         } else {
-            System.out.println(specificElement + " does not exist in the array.\n * * *\n");
+            System.out.println(specificElement + " does not exist in the array.\n * * *");
         }
 
-        //Write a Java program to find the sum of the two elements of a given array which is equal to a given integer.
+        //Task 10: Write a Java program to find the sum of the two elements of a given array which is equal to a given integer.
 
-    /* Task 10: Write a Java program to print the following grid.
-     Expected Output :
-
-    - - - - - - - - - -
-    - - - - - - - - - -
-    - - - - - - - - - -
-    - - - - - - - - - -
-    - - - - - - - - - -
-    - - - - - - - - - -
-    - - - - - - - - - -
-    - - - - - - - - - -
-    - - - - - - - - - -
-    - - - - - - - - - -
-     */
+        System.out.println("Task 10:\nSum of the numbers giving the same output:");
         findPairs(new int[] {4, 6, 5, -10, 8, 5, 20}, 10);
 
         System.out.println("===========");
