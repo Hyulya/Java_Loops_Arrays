@@ -6,7 +6,7 @@ public class Loops10Tasks {
     public static void main(String[] args) {
 
         // Task 1: Write a Java program to sum values of an array.
-        int array[] = {1, 5, 10, 15, 20};
+        int[] array = {1, 5, 10, 15, 20};
         int sum = 0;
         for (int i = 0; i < array.length; i++) {
             sum += array[i];
@@ -18,12 +18,13 @@ public class Loops10Tasks {
         // NOTE: Arrays.toString() method is used to return a string representation of the contents of the specified array.
         // The string representation consists of a list of the array’s elements, enclosed in square brackets (“[]”).
         // Adjacent elements are separated by the characters “, ” (a comma followed by a space). It returns “null” if the array is null.
+        // Arrays.toString() is parsing = this is when we convert one type to another type (like int to String)
 
-        int[] array_given = {1, 2, 3, 4, 5};
-        int[] array_new = new int[5];
-        System.out.printf("Task 02:\nThe given array is: " + Arrays.toString(array_given) + "\n");
+        int[] array_given = {1, 2, 3, 4, 5}; // initializing
+        int[] array_new = new int[5]; // declaring
+        System.out.printf("Task 02:\nThe given array is: " + Arrays.toString(array_given) + "\n"); // escape symbols
 
-        for (int k = 0; k < array.length; k++) {
+        for (int k = 0; k < array_given.length; k++) {
             array_new[k] = array_given[k];
         }
         System.out.printf("The new array is: " + Arrays.toString(array_new) + "\n * * *\n");
